@@ -4,8 +4,8 @@ cluster_name = "webapp-dev"
 aws_profile = "default"
 aws_region  = "us-west-2"
 
-ec2_key_name = "my-key"
-ec2_key      = "REPLACE-ME-WITH-YOUR-PUBKEY-CONTENTS"
+ec2_key_name = "key-pair"
+ec2_key      = "key-07c2e4de5c775f0cc"
 
 vpc_cidr                 = "10.4.20.0/24"
 vpc_az1                  = "us-west-2a"
