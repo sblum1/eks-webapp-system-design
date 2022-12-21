@@ -22,4 +22,4 @@ db_storage_size_in_gb  = 40
 k8s_desired_size        = 2
 k8s_max_size            = 2
 k8s_min_size            = 1
-k8s_node_instance_types = ["t2.small"]
+k8s_node_instance_types = ["t2.micro"]
