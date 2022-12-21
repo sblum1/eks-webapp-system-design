@@ -2,7 +2,7 @@ cluster_name = "webapp-dev"
 
 # AWS CLI config profile
 aws_profile = "default"
-aws_region  = "us-west-2"
+aws_region  = "us-east-1"
 
 ec2_key_name = "key-pair"
 ec2_key      = "key-07c2e4de5c775f0cc"
