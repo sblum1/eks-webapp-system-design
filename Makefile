@@ -36,3 +36,6 @@ tmp/last-deployment-frontend: apps/frontend/frontend.yaml tmp/last-build-fronten
 .PHONY : help
 help : Makefile
 	@sed -n 's/^##//p' $<
+
+deploy:
+	terraform -chdir=terraform apply
